@@ -1,7 +1,7 @@
 .modalBackground {
     width: 100%;
     height: 100%;
-    background-color:aliceblue;
+    background:aliceblue		;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -32,7 +32,12 @@
 .DRigthe{
     height: 100%;
     width: 40%;
+    padding-top: 6%;
     
+}
+img{
+    width: 100% !important;
+    height: 81% !important;
 }
 
 .Dleft{
@@ -102,7 +107,7 @@ form {
     border: none;
     border-radius: 8px;
     margin-top: -15px;
-    margin-left: 2%;
+    margin-left: 0;
     margin-right: 5%;
     border: 1px #000 solid;
   }
@@ -114,8 +119,38 @@ form {
   }
 
 
+  @media screen and (max-width: 1400px) {
+    .Titel {
+        font-size: 32px ;
+        padding: 2%;
+        font-weight: 800;
+    }
+    .description {
+        font-size: 18px;
+        font-family: system-ui;
+        font-weight: 400;
+        padding: 0% 2% 0% 2%;
+        margin-top: -19px !important;
+
+    }
+    form {
+        width: 100%;
+        padding: 2%;
+        margin-top: -19px !important;
+    }
+
+    img {
+        width: 100% !important;
+        height: 70% !important;
+    }
+}
 
   @media screen and (max-width: 1024px) {
+    img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+ 
     .modalBackground {
         height: 169vh;
     }
@@ -143,10 +178,12 @@ form {
     }
 
     .Titel {
-        font-size: 27px;
+        font-size: 27px ;
         padding: 0% 6% 0% 6%;
         font-weight: 700;
     }
+
+
     .description {   
          font-size: 16px;
         font-family: system-ui;
@@ -190,9 +227,10 @@ form {
       }
     
 }
+
 @media screen and (max-width: 767px) {
     .modalBackground {
-        height: 160vh !important;
+        height: 200vh !important;
     }
     .modalContainer {  
         width: 100%;
@@ -206,8 +244,10 @@ form {
         display: block !important;
     }
     .DRigthe{
-        height: 36%;
-        width: 100%;
+        
+        height: 27%;
+        width: 93%;
+        padding: 4%;
         
     }
     
@@ -227,6 +267,8 @@ form {
         font-family: system-ui;
         font-weight: 400;
         padding: 0% 6% 0% 6%;
+        margin-top: 0;
+        margin-top: 0 !important;
     }
     .form-group {
         width: 88%;
@@ -275,6 +317,12 @@ form {
         font-size: 14px;
         opacity: 0.8;
         margin-left: -10px;
+    }
+
+    form {
+        width: 100%;
+        padding: 2%;
+        margin-top: 0 !important;
     }
 }
 

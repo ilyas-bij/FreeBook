@@ -1,28 +1,28 @@
 import React from 'react'
 import './Home.css'
+import img from '../img/Eboook.png'
 import Form from './Form'
 function Home() {
 
 
 
 
-  const img = "https://user-images.githubusercontent.com/41929050/61567051-13938600-aa33-11e9-8ae7-0b5c19aafab4.jpeg";
+  
   return (
     <div className="modalBackground"  >
             
             <div className='modalContainer'  >
               <div className='DivC'>
-              <div className='DRigthe'></div>
+              <div className='DRigthe'>
+                    <img src={img} alt='' className='img'/>
+              </div>
                     <div className='Dleft'>
                        <div className='content'>
-                            <h1 className='Titel'>Gastro Obscura: A Food Adventurer's Guide (Atlas Obscura) </h1>
+                            <h1 className='Titel'>
+                            Secrets to Raising Capital: How to get the money you need for your business the fastest and easiest way possible 
+                            </h1>
                                 <p className='description'>
-                                A Feast of Wonder!
-                                Created by the ever-curious minds behind Atlas Obscura,
-                                this breathtaking guide transforms our sense of what people around the world eat and drink.
-                                Covering all seven continents, Gastro Obscura serves up a loaded plate of incredible ingredients,
-                                food adventures, and edible wonders. Ready for a beer made from fog in Chile? Sardinia’s “Threads of God” pasta?
-                                Egypt’s 2000-year-old
+                                Secrets to Raising Capital is the definitive guide on how to get funding for your business. Unlike other books on raising capital, it is not a list of lenders, investment bankers and investors nor is it filled with instructions on how to value your business or the difference between angel investors and private equity funds. The content of Secrets to Raising Capital is unique. The challenge faced by the business looking to obtain funding is convincing the money source to actually make the loan or the investment.
                                 </p>
                        </div>
                        
