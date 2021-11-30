@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import Form from './Form'
 function Home() {
 
 
@@ -25,15 +26,7 @@ function Home() {
                                 </p>
                        </div>
                        
-                            <form>
-                            <div className="form-group">
-                                        
-                                            <input type="text"  placeholder='Enter your name'/>
-                                            <input type="text"  placeholder='Enter your Email'/>
-                            </div>
-                                
-                                </form>
-                                <button>git ite now</button>
+                          <Form/>
                        </div>
                     
                     
