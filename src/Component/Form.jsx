@@ -36,7 +36,7 @@ function Form() {
                             <input type="text"  placeholder='Enter your name' id="name" name="name" value={name} onChange={(e)=>setname(e.target.value)}/>
                             <input type="text"  placeholder='Enter your Email' id="email" name="email" value={email} onChange={(e)=>setemail(e.target.value)}/>
                    </div>
-                   <button>git ite now</button> {Res &&<label>check your email</label>} {Err &&<label className='Err'>enter your name and email</label>}
+                   <button>Get It Now</button> {Res &&<label>check your email</label>} {Err &&<label className='Err'>enter your name and email</label>}
                  </form>
                    
         </div>

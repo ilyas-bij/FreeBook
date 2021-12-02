@@ -1,7 +1,7 @@
 .modalBackground {
     width: 100%;
     height: 100%;
-    background:aliceblue		;
+    background: url(../img/BG1.svg)  repeat #fff;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -110,6 +110,9 @@ form {
     margin-left: 0;
     margin-right: 5%;
     border: 1px #000 solid;
+    font-weight: 500;
+    
+
   }
 
   button:hover {
@@ -148,17 +151,10 @@ form {
   @media screen and (max-width: 1024px) {
     img {
         width: 100% !important;
-        height: 100% !important;
+        height: 59vh  !important;
     }
  
-    .modalBackground {
-        height: 169vh;
-    }
-    .modalContainer {  
-        width: 100%;
-      height: 100%;
-      padding: 0;
-    }
+  
     .DivC{
         width: 100%;
         height: 100%;
@@ -229,8 +225,13 @@ form {
 }
 
 @media screen and (max-width: 767px) {
+
+    img {
+        width: 100% !important;
+        height: 100%  !important;
+    }
     .modalBackground {
-        height: 200vh !important;
+        height: 165vh !important;
     }
     .modalContainer {  
         width: 100%;
@@ -245,7 +246,7 @@ form {
     }
     .DRigthe{
         
-        height: 27%;
+        height: 34%;
         width: 93%;
         padding: 4%;
         
